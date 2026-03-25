@@ -1,0 +1,27 @@
+﻿@page "/display-name-for-label"
+@using System.ComponentModel.DataAnnotations
+<h3>DisplayNameForLabel</h3>
+
+<Label For="@(() => model.FirstName)"></Label>
+
+<label>
+    <DisplayName For="@(() => model.FirstName)" />
+    <InputDate @bind-Value="model!.FirstName" />
+</label>
+
+@code {
+    private DisplayNameForLabelModel model = new DisplayNameForLabelModel()
+    {
+        FirstName = "John",
+        LastName = "Doe"
+    };
+
+    public class DisplayNameForLabelModel
+    {
+        [Display(Name = "First Name")]
+        public string FirstName { get; set; } = string.Empty;
+        [Display(Name = "Last Name")]
+        public string LastName { get; set; } = string.Empty;
+    }
+
+}
