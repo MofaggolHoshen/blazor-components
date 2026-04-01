@@ -1,4 +1,4 @@
-# Blazor Examples
+# blazor-components
 
 A collection of Blazor example projects demonstrating real-world problems and their solutions. Each project focuses on specific challenges developers face when building Blazor applications.
 
@@ -30,7 +30,7 @@ This repository serves as a comprehensive resource for Blazor developers encount
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/blazor-examples.git
+   git clone https://github.com/MofaggolHoshen/blazor-components.git
    ```
 
 2. Navigate to a specific project:
