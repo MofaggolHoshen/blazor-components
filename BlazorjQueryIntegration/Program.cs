@@ -3,7 +3,7 @@ using BlazorjQueryIntegration.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services 
+// Add ohter services
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
